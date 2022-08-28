@@ -1,4 +1,4 @@
-name: ${name}
+name: ${pluginName}
 main: vg.civcraft.mc.citadel.Citadel
 version: ${version}
 authors:
@@ -11,13 +11,15 @@ authors:
 - Lazersmoke
 - TealNerd
 - Scuwr
+- Diet-Cola
+- Aleksey-Terzi
 depend:
 - NameLayer
 - CivModCore
 softdepend:
 - HolographicDisplays
-description: Citadel allows you to make blocks difficult to break. When a block is reinforced, it must be broken many times before it is destroyed.
-api-version: 1.17
+description: ${description}
+api-version: ${api_version}
 permissions:
   citadel.admin:
     default: op
